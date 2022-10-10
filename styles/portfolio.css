@@ -10,9 +10,14 @@ body {
   background: #212121;
 }
 
+h3 {
+  font-family: var(--heading-font-family);
+  color: whitesmoke;
+  font-size: 20px;
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -87,16 +92,16 @@ p {
   margin: 30px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 63px;
   line-height: 80px;
 }
 
-.about-section {
-  padding: 160px 20px;
+.content-container {
+  padding: 50px 20px;
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
@@ -116,7 +121,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
