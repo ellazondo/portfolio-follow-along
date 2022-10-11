@@ -130,6 +130,34 @@ content p {
   max-height: 42px;
 }
 
+nav {
+  padding: 20px 0;
+  margin: 0;
+}
+nav ul {
+  color: whitesmoke;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #ef6036;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -149,5 +177,13 @@ content p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .logo {
+    max-width: 50px;
+    max-height: 30px;
+  }
+
+  nav li {
+    line-height: 30px;
   }
 }
