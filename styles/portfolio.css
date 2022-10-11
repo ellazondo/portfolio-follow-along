@@ -125,6 +125,11 @@ content p {
   margin-left: 115px;
 }
 
+.logo {
+  max-width: 150px;
+  max-height: 42px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
