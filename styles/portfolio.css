@@ -156,10 +156,10 @@ footer {
 
 footer .contact-box {
   background: grey;
-  padding: 30px 60px 30px 60px;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-top: 200px;
+  padding: 30px 60px 30px 60px;
 }
 
 footer .contact-box p {
