@@ -10,21 +10,6 @@ body {
   background: #212121;
 }
 
-h3 {
-  font-family: var(--heading-font-family);
-  color: whitesmoke;
-  font-size: 20px;
-}
-
-h1,
-h2,
-h5,
-h6 {
-  color: black;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-}
-
 h1 {
   font-size: 96px;
   color: whitesmoke;
@@ -32,10 +17,18 @@ h1 {
 
 h2 {
   color: whitesmoke;
+  font-size: 64px;
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  color: whitesmoke;
+  font-size: 20px;
 }
 
 h4 {
   font-size: 50px;
+  margin-bottom: 0;
 }
 
 p {
@@ -69,10 +62,6 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-h2 {
-  font-size: 64px;
 }
 
 p {
@@ -161,6 +150,10 @@ nav li.active a {
   color: #ef6036;
 }
 
+footer {
+  margin: 40px 0;
+}
+
 footer .contact-box {
   background: grey;
   padding: 30px 60px 30px 60px;
@@ -170,12 +163,8 @@ footer .contact-box {
 }
 
 footer .contact-box p {
-  color: black;
+  color: #212121;
   margin: 0;
-}
-
-footer {
-  margin: 40px 0;
 }
 
 footer .email-link {
@@ -208,6 +197,7 @@ footer .social-links a {
   h2 {
     font-size: 42px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
