@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: whitesmoke;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Montserrat", sans-serif;
   --default-font-family: "Montserrat", sans-serif;
@@ -12,17 +12,17 @@ body {
 
 h1 {
   font-size: 96px;
-  color: whitesmoke;
+  color: var(--branding-color);
 }
 
 h2 {
-  color: whitesmoke;
+  color: var(--branding-color);
   font-size: 64px;
 }
 
 h3 {
   font-family: var(--heading-font-family);
-  color: whitesmoke;
+  color: var(--branding-color);
   font-size: 20px;
 }
 
@@ -33,7 +33,7 @@ h4 {
 
 p {
   font-weight: normal;
-  color: whitesmoke;
+  color: var(--branding-color);
 }
 
 .hero {
@@ -58,7 +58,7 @@ p {
 
 .btn-dark {
   border-radius: 4px;
-  color: white;
+  color: var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -127,7 +127,7 @@ nav {
   margin: 0;
 }
 nav ul {
-  color: whitesmoke;
+  color: var(--branding-color);
   padding: 0;
 }
 
@@ -141,7 +141,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: whitesmoke;
+  color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -151,7 +151,7 @@ nav li.active a {
 }
 
 footer {
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 footer .contact-box {
@@ -169,7 +169,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: var(--branding-color);
 }
 
 footer .email-link:hover {
@@ -177,12 +177,12 @@ footer .email-link:hover {
 }
 
 footer .social-links a:hover {
-  color: whitesmoke;
+  color: black;
 }
 
 footer .social-links a {
   margin: 20px;
-  color: whitesmoke;
+  color: var(--branding-color);
   background: gray;
   padding: 10px 14px;
   border-radius: 50%;
