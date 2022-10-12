@@ -18,7 +18,6 @@ h3 {
 
 h1,
 h2,
-h4,
 h5,
 h6 {
   color: black;
@@ -33,6 +32,10 @@ h1 {
 
 h2 {
   color: whitesmoke;
+}
+
+h4 {
+  font-size: 50px;
 }
 
 p {
@@ -156,6 +159,45 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: #ef6036;
+}
+
+footer .contact-box {
+  background: grey;
+  padding: 30px 60px 30px 60px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+footer .contact-box p {
+  color: black;
+  margin: 0;
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer .email-link:hover {
+  color: #ef6036;
+}
+
+footer .social-links a:hover {
+  color: whitesmoke;
+}
+
+footer .social-links a {
+  margin: 20px;
+  color: whitesmoke;
+  background: gray;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
 }
 
 @media (max-width: 960px) {
