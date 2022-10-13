@@ -15,12 +15,9 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=La+Belle+Aurore&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css" />
 
     <script
@@ -36,7 +33,16 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/watermelon.png" class="logo" alt="Gabriella Logo" />
+        <img 
+        src="images/watermelon.png" 
+        class="logo d-none d-md-block" 
+        alt="Gabriella Logo" />
+        <img 
+        src="images/logo-small.jpeg"
+        class="logo d-block d-md-none"
+        alt="Gabriella Logo"
+         />
+        
         <ul>
           <li><a href="/" title="homepage">Home</a></li>
           <li>
@@ -53,42 +59,8 @@
         </ul>
       </nav>
     </div>
-    <div class="content-container">
-      <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:ellazondo@gmail.com">ellazondo@gmail.com</a>
-        </p>
-        <h3>Twitter</h3>
-        <p>
-          <a href="http://www.twitter.com/ellazondo" target="_blank"
-            >@ellazondo</a
-          >
-        </p>
-        <h3>Instagram</h3>
-        <p>
-          <a href="http://www.instagram.com/ella_zondo" target="_blank"
-            >@ellazondo</a
-          >
-        </p>
-      </div>
-    
-    <footer>
-      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
-        <div>
-          <h4>Work Inquires</h4>
-          <p>Let's work together</p>
-        </div>
-        <div>
-          <a href="/contact.html" class="btn btn-dark">Contact me</a>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <a href="mailto:ellazondo@gmail.com" class="email-link"
-          >ellazondo@gmail.com</a
-        >
-      </div>
+    <div class="hulk">
+      <h1>Let's get in touch</h1>
       <div class="social-links d-flex justify-content-center">
         <a
           href="https://www.github.com/ellazondo"
@@ -109,7 +81,22 @@
           ><i class="fab fa-twitter"></i
         ></a>
       </div>
-      <p class="text-center mt-4">
+      
+    </div>
+    
+    <footer>
+      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div>
+          <h4>Work Inquires</h4>
+          <p>Let's work together</p>
+        </div>
+        <div>
+          <a href="mailto:g.ellazondo@gmail.com" class="btn yummy mt-3">Email me</a>
+        </div>
+      </div>
+      
+      
+      <p class="text-center mt-4 last">
         This project was coded by Gabriella Elizondo with the help of Shecodes,
         it is
         <a href="https://github.com/ellazondo/portfolio-follow-along"

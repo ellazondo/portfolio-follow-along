@@ -1,27 +1,29 @@
 :root {
-  --branding-color: whitesmoke;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Montserrat", sans-serif;
-  --default-font-family: "Montserrat", sans-serif;
+  --branding-color: black;
+  --secondary-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  --heading-font-family: "Dosis", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
+  --extra-font-family: "La Belle Aurore", cursive;
 }
 
 body {
   font-family: var(--default-font-family);
-  background: #212121;
 }
 
 h1 {
   font-size: 96px;
   color: var(--branding-color);
+  font-family: var(--heading-font-family);
 }
 
 h2 {
   color: var(--branding-color);
+  font-family: var(--heading-font-family);
   font-size: 64px;
 }
 
 h3 {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   color: var(--branding-color);
   font-size: 20px;
 }
@@ -31,15 +33,26 @@ h4 {
   margin-bottom: 0;
 }
 
+.more {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+}
+
+.extra {
+  font-size: 20px;
+  font-family: var(--extra-font-family);
+}
+
 p {
   font-weight: normal;
   color: var(--branding-color);
 }
 
 .hero {
-  background-image: url("/images/bg.png");
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  margin: 0 50px;
 }
 
 .hero p {
@@ -56,12 +69,16 @@ p {
   font-size: 24px;
 }
 
-.btn-dark {
-  border-radius: 4px;
-  color: var(--branding-color);
+.yummy {
+  background: #f6f0eb;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.workintro {
+  font-family: var(--extra-font-family);
+  background: var(--secondary-color);
 }
 
 p {
@@ -70,9 +87,9 @@ p {
   line-height: 30px;
 }
 
-.btn-dark-outline {
-  color: #676767;
-  border: 1px solid #676767;
+.btn-light-outline {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -94,27 +111,24 @@ p {
   text-align: center;
 }
 
+.condense {
+  padding: 50px 70px 30px 70px;
+}
+
 .content {
-  margin: 30px;
+  margin: 50px;
 }
 
 .content h3 {
-  font-size: 24px;
-  font-family: var(--default-font-family);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
   line-height: 1.5;
   margin: 20px 0 0;
 }
 
 content p {
   font-size: 14px;
-}
-
-.need {
-  margin: 75px;
-}
-
-.also {
-  margin-left: 115px;
 }
 
 .logo {
@@ -155,10 +169,9 @@ footer {
 }
 
 footer .contact-box {
-  background: grey;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   border-radius: 10px;
-  margin-bottom: 20px;
-  margin-top: 200px;
+  margin: 200px 100px 20px 100px;
   padding: 30px 60px 30px 60px;
 }
 
@@ -170,23 +183,56 @@ footer .contact-box p {
 footer .email-link {
   text-decoration: none;
   color: var(--branding-color);
+  font-family: var(--extra-font-family);
 }
 
 footer .email-link:hover {
-  color: #ef6036;
+  color: #f0a5bc;
 }
 
 footer .social-links a:hover {
-  color: black;
+  color: #f0a5bc;
+}
+
+.floating {
+  margin: 20px;
+  color: var(--branding-color);
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  padding: 10px 14px;
+  border-radius: 50%;
 }
 
 footer .social-links a {
   margin: 20px;
   color: var(--branding-color);
-  background: gray;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
+}
+
+.hulk {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 100px 20px;
+  margin: 25px 100px;
+}
+
+.hulk .social-links a:hover {
+  color: #f0a5bc;
+}
+
+.hulk .social-links a {
+  margin: 20px;
+  color: var(--branding-color);
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.last {
+  font-style: italic;
 }
 
 @media (max-width: 960px) {
@@ -210,12 +256,16 @@ footer .social-links a {
     text-align: center;
     padding: 0;
   }
-  .logo {
-    max-width: 50px;
-    max-height: 30px;
+
+  .floating {
+    margin: 0;
   }
 
   nav li {
     line-height: 30px;
+  }
+
+  .last {
+    display: none;
   }
 }

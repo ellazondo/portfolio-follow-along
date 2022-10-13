@@ -15,12 +15,9 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=La+Belle+Aurore&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css" />
 
     <script
@@ -37,7 +34,15 @@
 <body>
   <div class="container">
     <nav class="d-flex justify-content-between">
-      <img src="images/watermelon.png" class="logo" alt="Gabriella Logo" />
+      <img 
+        src="images/watermelon.png" 
+        class="logo d-none d-md-block" 
+        alt="Gabriella Logo" />
+      <img 
+        src="images/logo-small.jpeg"
+        class="logo d-block d-md-none"
+        alt="Gabriella Logo"
+         />
       <ul>
         <li><a href="/" title="homepage">Home</a></li>
         <li>
@@ -55,46 +60,48 @@
   <div class="content-container">
     <div class="content">
       <div class="mb-4">
-        <h1 class="mb-5">Have a look at what I have been working on!</h1>
+        <h1 class="mb-5 hero d-flex d-none d-md-block">The Portfolio</h1>
+        <div class="container condense">
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
-              src="/images/yogurt.png"
+              src="/images/weatherapp.png"
               class="img-fluid mb-3 rounded"
-              alt="Yogurt image"
+              alt="Weather image"
             />
-            <h3 class="text-center">Yogurt Project</h3>
+            <h3 class="text-center">Weather App</h3>
             <p class="text-center">Build with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
             <img
-              src="/images/dictionary.png"
+              src="/images/dictionaryapp.png"
               class="img-fluid mb-3 rounded need"
               alt="dictionary image"
             />
-            <h3 class="text-center">Weather Project</h3>
+            <h3 class="text-center">Dictionary Project</h3>
             <p class="text-center">Build with HTML, CSS with React</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
-              src="/images/weather.png"
+              src="/images/yogurtapp.png"
               class="img-fluid mb-3 rounded"
-              alt="weather image"
+              alt="yoghurt-image"
             />
-            <h3 class="text-center">Dictionary Project</h3>
+            <h3 class="text-center">Yogurt Project</h3>
             <p class="text-center">Build with HTML, CSS with React</p>
           </div>
           <div class="col-md-6 mb-4">
             <img
-              src="/images/fake.png"
-              class="img-fluid mb-3 rounded also"
-              alt="fake image"
+              src="/images/translation.png"
+              class="img-fluid mb-3 rounded"
+              alt="translation image"
             />
-            <h3 class="text-center">Madeup Project</h3>
+            <h3 class="text-center">Translation Project</h3>
             <p class="text-center">Build with HTML and CSS</p>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -106,7 +113,7 @@
         <p>Let's work together</p>
       </div>
       <div>
-        <a href="/contact.html" class="btn btn-dark">Contact me</a>
+        <a href="/contact.html" class="btn yummy mt-3">Contact me</a>
       </div>
     </div>
     <div class="d-flex justify-content-center">
@@ -137,7 +144,7 @@
         ><i class="fab fa-twitter"></i
       ></a>
     </div>
-    <p class="text-center mt-4">
+    <p class="text-center mt-4 last">
       This project was coded by Gabriella Elizondo with the help of Shecodes, it
       is
       <a href="https://github.com/ellazondo/portfolio-follow-along"

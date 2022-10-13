@@ -7,7 +7,7 @@
     <meta name="description" content="Gabriella Elizondo is a front end 
     developer based in Amsterdam. She dove head first into SheCodes Pro and 
     is currently seeking her next full-stack bootcamp."
-    <title>Front-end developer - Gabriella Eliondo</title>
+    <title></title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -15,12 +15,9 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=La+Belle+Aurore&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css" />
 
     <script
@@ -38,8 +35,14 @@
       <nav class="d-flex justify-content-between">
         <img 
         src="images/watermelon.png" 
-        class="logo" 
+        class="logo d-none d-md-block" 
         alt="Gabriella Logo" />
+        <img 
+        src="images/logo-small.jpeg"
+        class="logo d-block d-md-none"
+        alt="Gabriella Logo"
+         />
+
         <ul>
           <li class="active"><a href="/" title="homepage">Home</a></li>
           <li><a href="/about.html" title="about Gabriella Elizondo">About</a></li>
@@ -51,61 +54,70 @@
 
     <div class="hero">
       <h1>Gabriella Elizondo</h1>
-      <h2 class="mb-5">Front-end developer based in Amsterdam</h2>
+      <h2 class="mb-4">Front-end developer based in Amsterdam</h2>
       <div>
-        <a href="contact.html" class="btn btn-dark">Contact me</a>
+        <a href="contact.html" class="btn btn-light more">Contact me</a>
       </div>
     </div>
-    <p class="text-center m-5">Featured Projects which showcase my best work</p>
+    <p class="text-center m-5 extra">Featured Projects which showcase my best work</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/yogurt.png" class="img-fluid" alt="" />
+          <img 
+          src="/images/weatherapp.png" 
+          class="img-fluid" 
+          alt="Weather App" />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Yoghurt Project</h2>
+            <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="/work.html" class="btn btn-dark-outline"> Learn More </a>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
           </div>
         </div>
       </div>
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
+            <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="/work.html" class="btn btn-dark-outline"> Learn More </a>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" class="img-fluid" alt="" />
+          <img 
+          src="/images/dictionaryapp.png" 
+          class="img-fluid" 
+          alt="Dictionary-App" />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fluid" alt="" />
+          <img 
+          src="/images/yogurtapp.png" 
+          class="img-fluid" 
+          alt="Yoghurt-App" />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Dictionary Project</h2>
+            <h2 class="mb-5">Yogurt Project</h2>
             <p class="mb-5 text-muted">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="/work.html" class="btn btn-dark-outline"> Learn More </a>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
           </div>
         </div>
       </div>
@@ -118,7 +130,7 @@
             <p>Let's work together</p>
           </div>
           <div>
-            <a href="/contact.html" class="btn btn-dark">Contact me</a>
+            <a href="/contact.html" class="btn btn-light mt-3">Contact me</a>
           </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -146,7 +158,7 @@
             ><i class="fab fa-twitter"></i
           ></a>
         </div>
-        <p class="text-center mt-4">
+        <p class="text-center mt-4 last">
           This project was coded by Gabriella Elizondo with the help of Shecodes, it is 
           <a href="https://github.com/ellazondo/portfolio-follow-along">open sourced.</a>
         </p>
