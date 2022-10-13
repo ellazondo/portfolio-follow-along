@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Gabriella Elizondo is a front end 
+    <meta name="description" content="Gabriella Elizondo is a front end 
     developer based in Amsterdam. She dove head first into SheCodes Pro and 
     is currently seeking her next full-stack bootcamp."
     <title></title>
@@ -34,97 +34,131 @@
     <div class="container">
       <nav class="d-flex justify-content-between">
         <img 
-          src="images/watermelon.png" 
-          class="logo d-none d-md-block" 
-          alt="Gabriella Logo" />
+        src="images/watermelon.png" 
+        class="logo d-none d-md-block" 
+        alt="Gabriella Logo" />
         <img 
-          src="images/logo-small.jpeg"
-          class="logo d-block d-md-none"
-          alt="Gabriella Logo"
+        src="images/logo-small.jpeg"
+        class="logo d-block d-md-none"
+        alt="Gabriella Logo"
          />
+
         <ul>
           <li><a href="/" title="homepage">Home</a></li>
-          <li class="active">
-            <a href="/about.html" title="about Gabriella Elizondo">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Gabriella's coding profile">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="how to contact Gabriella Elizondo"
-              >Contact</a
-            >
-          </li>
+          <li class="active"><a href="/about.html" title="about Gabriella Elizondo">About</a></li>
+          <li><a href="/work.html" title="Gabriella's coding profile">Work</a></li>
+          <li><a href="/contact.html" title="how to contact Gabriella Elizondo">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="container content-container">
+
+    <div class="hero">
+      <h1>Gabriella Elizondo</h1>
+      <h2 class="mb-4">Front-end developer based in Amsterdam</h2>
+      <div>
+        <a href="contact.html" class="btn btn-light more">Contact me</a>
+      </div>
+    </div>
+    <p class="text-center m-5 extra">The following are examples of projects 
+      I learned with SheCodes Pro</p>
+    <div class="container">
       <div class="row mb-5">
-        <div class="col-lg-6">
+        <div class="col d-none d-lg-block">
           <img 
-          src="/images/floatingme.png" 
-          class="img-fluid mb-4 floating" 
-          alt="Gabriella-Profile-Pic" />
+          src="/images/weatherapp.png" 
+          class="img-fluid" 
+          alt="Weather App" />
         </div>
-        <div class="col-lg-6">
-          <div class="content">
-            <h2>Hi, I'm Gabriella</h2>
-            <h3 class="mb-5">Frontend Developer based in Amsterdam</h3>
-            <p class="mb-4 text-muted">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained.
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              This is a weather app coded by SheCodes. It is an example of my
+              first time utilizing JavaScript, Bootstrap, AJAX and API integration. 
+              I also became familiar with using Github and hosting my site on Netlify. 
             </p>
-            <a href="/work.html" class="btn btn-light-outline">
-              See all my projects
-            </a>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
           </div>
         </div>
       </div>
-    
-    <footer>
-      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
-        <div>
-          <h4>Work Inquires</h4>
-          <p>Let's work together</p>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Dictionary App</h2>
+            <p class="mb-5 text-muted">
+              This project we haven't touched on yet but this was a photo used 
+              to help fill the page in order to understand grids, flexbox and responsive code.
+            </p>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
+          </div>
         </div>
-        <div>
-          <a href="/contact.html" class="btn yummy mt-3">Contact me</a>
+        <div class="col d-none d-lg-block">
+          <img 
+          src="/images/dictionaryapp.png" 
+          class="img-fluid" 
+          alt="Dictionary-App" />
         </div>
       </div>
-      <div class="d-flex justify-content-center">
-        <a href="mailto:ellazondo@gmail.com" class="email-link"
-          >ellazondo@gmail.com</a
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img 
+          src="/images/yogurtapp.png" 
+          class="img-fluid" 
+          alt="Yoghurt-App" />
+        </div>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Yogurt Project</h2>
+            <p class="mb-5 text-muted">
+              This is an example of an early project learned in SheCodes basics.
+              Simple HTML and CSS.
+            </p>
+            <a href="/work.html" class="btn btn-light-outline"> Learn More </a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between d-none d-md-flex"
         >
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a
+          <div>
+            <h4>Work Inquires</h4>
+            <p>Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn yummy mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="mailto:ellazondo@gmail.com" class="email-link"
+            >ellazondo@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a 
           href="https://www.github.com/ellazondo"
           target="_blank"
           title="Github profile"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a
+            ><i class="fab fa-github"></i
+          ></a>
+          <a 
           href="https://www.instagram.com/ellazondo"
           target="_blank"
           title="Instagram profile"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a 
           href="https://www.twitter.com/ella_zondo"
           target="_blank"
           title="Twitter profile"
-          ><i class="fab fa-twitter"></i
-        ></a>
-      </div>
-      <p class="text-center mt-4 last">
-        This project was coded by Gabriella Elizondo with the help of Shecodes,
-        it is
-        <a href="https://github.com/ellazondo/portfolio-follow-along"
-          >open sourced.</a
-        >
-      </p>
-    </footer>
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4 last">
+          This project was coded by Gabriella Elizondo with the help of Shecodes, it is 
+          <a href="https://github.com/ellazondo/portfolio-follow-along">open sourced.</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
